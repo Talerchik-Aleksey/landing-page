@@ -161,13 +161,5 @@ header {
 
 .right {
   width: 50%;
-  background-color: #000000;
-}
-
-.img {
-  float: right;
-  height: auto; 
-  width: auto; 
-  max-width: 880px; 
-  max-height: 730px;
+  background-image: url(img/new-collection.jpg);
 }
