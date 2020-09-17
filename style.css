@@ -26,11 +26,21 @@ header {
   align-items: center;
 }
 
+.vector__img {
+  height: 16px;
+  width: 16px;
+  left: 405px;
+  top: 14px;
+  border-radius: 0px;
+
+}
+
 .time {
   font-size: 12px;
   line-height: 16px;
   color: #969696;
   margin-left: 15px;
+  margin-bottom: 0;
 }
 
 .left-top {
@@ -51,6 +61,7 @@ header {
   color: #969696;
 
   margin-left: 10px;
+  margin-bottom: 0;
 }
 
 .second-line {
@@ -79,6 +90,7 @@ header {
   text-transform: uppercase;
   color: #969696;
   padding: 21px 10px;
+  margin-bottom: 0;
 }
 
 .div-menu {
@@ -114,7 +126,6 @@ header {
 }
 
 .big-logo {
-  
   padding-top: 160px;
 }
 
@@ -132,6 +143,8 @@ header {
   color: #FFFFFF;
 }
 
+/* Second section */
+
 .new-season {
   font-family: Playfair Display;
   font-style: normal;
@@ -141,6 +154,7 @@ header {
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin-top: 93px;
 }
 
 .second-section > div {
@@ -182,4 +196,62 @@ header {
   margin: 50px 0px;
   border: 1px solid #FFFFFF;
   width: 120px;
+}
+
+/* Third section */
+
+.third__section {
+  display: flex;
+  background-color: #000000;
+  height: 600px;
+}
+
+.third__section > .third__section__img {
+  height: 100%;
+  width: 45%;
+}
+
+
+.third__section > .third__section__text {
+  height: 100%;
+  width: 55%;
+}
+
+.third__section__img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(img/Rectangle.png);
+}
+
+.p__text {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.third__section__text {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.watch__collection {
+  padding: 12px 28px;
+  border: 1px white solid;
+  color: white;
+}
+
+.watch__collection:hover {
+  color: white;
+  text-decoration: none;
 }
