@@ -21,9 +21,12 @@ header {
 .main-div {
   display: flex;
   justify-content: space-between;
-  width: 70vw;
-  margin: 0 auto;
   align-items: center;
+}
+
+.main {
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .vector__img {
@@ -186,13 +189,11 @@ header {
 .group-img {
   width: 220px;
   height: 292px;
-
-  padding: 25px;
 }
 
 .line {
   position: relative;
-  left: 43%;
+  left: 41%;
   margin: 50px 0px;
   border: 1px solid #FFFFFF;
   width: 120px;
@@ -254,4 +255,57 @@ header {
 .watch__collection:hover {
   color: white;
   text-decoration: none;
+}
+
+#new-goods {
+  background-color: #000;
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+.new-goods-text {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 120px;
+}
+
+.rov {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 40px;;
+}
+
+.line-2 {
+  margin-left: 45%;
+  border: 1px solid #FFFFFF;
+  width: 120px;
+  margin-bottom: 81px;
+  margin-top: 40px;
+}
+
+#my-brends {
+  background: #0F0F0F;
+}
+
+.new-goods-text1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 60px;
+}
+
+.brend {
+  width: 240px;
+  height: 79px;
 }
