@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,16 @@
 h1 {
   padding: 0;
   margin: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -194,12 +206,14 @@ header {
 
 .line {
   position: relative;
-  left: 41%;
-  margin: 50px 0px;
+  margin: 0 auto;
   border: 1px solid #FFFFFF;
   width: 120px;
 }
 
+.line__heading {
+  text-align: center;
+}
 /* Third section */
 
 .third__section {
@@ -236,7 +250,6 @@ header {
   color: #FFFFFF;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 80px;
   margin-bottom: 60px;
 }
 
@@ -283,7 +296,6 @@ header {
 }
 
 .line-2 {
-  margin-left: 45%;
   border: 1px solid #FFFFFF;
   width: 120px;
   margin-bottom: 81px;
@@ -306,12 +318,49 @@ header {
   padding-top: 60px;
 }
 
-.brend {
-  width: 240px;
-  height: 79px;
+.baner {
+  min-width: fit-content;
+  min-height: auto;
 }
 
 .col-3, .col-lg-3 {
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  background-image: url(img/Rectangle\ 15.png);
+  background-size: cover;
+}
+
+.footer__margin{
+  padding-top: 80px;
+}
+
+.footer__p {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+
+.footer__h {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.bootstrap-fix {
+  margin-left: 15px;
+}
+
+.content-futer {
+  margin-top: 40px;
 }
