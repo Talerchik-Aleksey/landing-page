@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -47,7 +47,6 @@ header {
   left: 405px;
   top: 14px;
   border-radius: 0px;
-
 }
 
 .time {
@@ -80,9 +79,8 @@ header {
 
 .second-line {
   height: 80px;
-  background: #0F0F0F;
+  background: #0f0f0f;
   height: 100%;
-
 }
 
 .logo {
@@ -91,29 +89,30 @@ header {
   font-weight: bold;
   font-size: 36px;
   line-height: 54px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .menu {
   font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
   color: #969696;
   padding: 21px 10px;
   margin-bottom: 0;
+  cursor: pointer;
+}
+
+.menu:hover {
+  background: #1f1f1f;
+  text-decoration: none;
+  color: white;
 }
 
 .div-menu {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.grey {
-  background: #1F1F1F;
 }
 
 .second-top-img1 {
@@ -153,7 +152,7 @@ header {
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Second section */
@@ -166,7 +165,7 @@ header {
   line-height: 48px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 93px;
 }
 
@@ -207,7 +206,7 @@ header {
 .line {
   position: relative;
   margin: 0 auto;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   width: 120px;
 }
 
@@ -226,7 +225,6 @@ header {
   height: 100%;
   width: 45%;
 }
-
 
 .third__section > .third__section__text {
   height: 100%;
@@ -247,7 +245,7 @@ header {
   font-size: 14px;
   line-height: 150%;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 60px;
@@ -285,25 +283,25 @@ header {
   line-height: 48px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 120px;
 }
 
 .rov {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 40px;;
+  padding-bottom: 40px;
 }
 
 .line-2 {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   width: 120px;
   margin-bottom: 81px;
   margin-top: 40px;
 }
 
 #my-brends {
-  background: #0F0F0F;
+  background: #0f0f0f;
 }
 
 .new-goods-text1 {
@@ -314,7 +312,7 @@ header {
   line-height: 48px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 60px;
 }
 
@@ -323,7 +321,8 @@ header {
   min-height: auto;
 }
 
-.col-3, .col-lg-3 {
+.col-3,
+.col-lg-3 {
   display: flex;
   justify-content: center;
 }
@@ -333,7 +332,7 @@ header {
   background-size: cover;
 }
 
-.footer__margin{
+.footer__margin {
   padding-top: 80px;
 }
 
@@ -343,7 +342,7 @@ header {
   font-weight: normal;
   font-size: 14px;
   line-height: 150%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 40px;
 }
 
@@ -354,14 +353,14 @@ header {
   font-size: 24px;
   line-height: 32px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.footer-button1{
+.footer-button1 {
   margin-right: 20px;
 }
 
-.footer-button2{
+.footer-button2 {
   margin-right: 20px;
 }
 
@@ -375,7 +374,7 @@ header {
 }
 
 .last-line {
-  background-color: #0F0F0F;
+  background-color: #0f0f0f;
 }
 
 .last-line-flex {
@@ -391,5 +390,5 @@ header {
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  color: #D0D0D0;
+  color: #d0d0d0;
 }
